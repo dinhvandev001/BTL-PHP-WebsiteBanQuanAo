@@ -1,0 +1,331 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.container
+{
+	width: 1200px;
+	height: auto;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.logo > a
+{
+	display: block;
+	width: 180px;
+	height: 180px;
+	margin: auto;
+}
+
+.logo > a > img
+{
+	width: 100%;
+}
+
+.menu
+{
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgb(140, 140, 140);
+	width: 1200px;
+}
+.menu > div
+{
+	display: flex;
+	align-items: center;
+}
+.menu > div > div > a
+{
+	text-decoration: none;
+	padding: 15px;
+	font-weight: bold;
+	color: black;
+}
+.menu > div > div > a:hover
+{
+	background-color: white;
+	border: 1px solid black;
+}
+.menuTrai
+{
+	justify-content: flex-start;
+}
+
+.menuPhai
+{
+	justify-content: flex-end;
+}
+
+.NamNu
+{
+	width: 1200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 10px auto;
+}
+.NamNu > div
+{
+	background-color: aquamarine;
+	margin: auto 10px;
+}
+.NamNu > div > a
+{
+	display: block;
+	text-decoration: none;
+	padding: 15px 25px;
+	
+}
+.NamNu > div > a:hover
+{
+	text-decoration: underline;
+}
+
+.danhMucSanPham
+{
+	width: 100%;
+	margin: 30px 0 10px 0;
+}
+.danhMucSanPham > h2
+{
+	display: inline-block;
+	width: 130px;
+	font-size: 20px;
+	padding: 8px;
+	margin: 0;
+	background-color: rgb(140, 140, 140);
+}
+
+.danhMucSanPham > hr
+{
+	height: 2px;
+	background-color: black;
+	border: none;
+	margin: 0px;
+}
+
+.sanPham
+{
+	width: 1200px;
+	display: grid;
+	grid-template-columns: 24.4% 24.4% 24.4% 24.3%;
+	grid-gap: 10px;
+}
+.sanPham > .oSanPham
+{
+	height: auto;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.sanPham > .oSanPham > a
+{
+	display: block;
+}
+.sanPham > .oSanPham > a:hover
+{
+	transform: scale(1.02);
+}
+.sanPham > .oSanPham > a > img
+{
+	transform: scale(1);
+	transition: all 2s;
+	width: 100%;
+}
+.sanPham > .oSanPham > a > p
+{
+	margin: 8px 0;
+}
+
+.anhSanPham
+{
+	text-decoration: none;
+}
+.themVaoGio
+{
+	text-decoration: none;
+	border: 1px solid  rgb(200, 70, 70);
+	background-color: rgb(200, 70, 70);
+	width: 100px;
+	padding: 10px;
+	margin: auto;
+	text-align: center;
+	color: white;
+}
+.themVaoGio:hover
+{
+	background-color: rgb(230, 172, 172);
+	color: rgb(200, 70, 70);
+}
+
+
+.footer
+{
+	width: 100%;
+	height: auto;
+	background-color: rgb(70, 70, 70);
+	color: white;
+}
+
+.footerCon
+{
+	display: flex;
+	justify-content: space-between;
+	width: 1200px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+.footerCon > div
+{
+	width: 100%;
+}
+.footerCon > div > hr
+{
+	margin-left: 0;
+	width: 90%;
+	height: 1px;
+	background-color: white;
+	border: none;
+}
+.footerCon > div > p:first-child
+{
+	font-size: 18px;
+}
+.footer2
+{
+	background-color: rgb(50, 50, 50);
+	color: white;
+}
+
+.chiTietSanPham
+{
+	width: 1200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.chiTietSanPham .anhChiTietSanPham
+{
+	width: 49.8%;
+	text-align: right;
+}
+
+.chiTietSanPham > div > img
+{
+	width: 60%;
+	margin: 20px;
+}
+
+.chiTietSanPham .ttChiTietSanPham
+{
+	width: 49.5%;
+	text-align: left;
+}
+
+.ttChiTietSanPham > p
+{
+	margin: 20px;
+}
+.ttChiTietSanPham > h1
+{
+	margin: 20px;
+}
+.ttChiTietSanPham > a
+{
+	margin: 20px;
+}
+
+.gioHang
+{
+	margin-top: 5px;
+	width: 1200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.gioHang > div
+{
+	width: 200px;
+	height: auto;
+	text-align: center;
+}
+.gioHang > div > img
+{
+	width: 100px;
+}
+.gioHang > div > a
+{
+	color: red;
+	text-decoration: none;
+	border: 1px solid red;
+	padding: 8px;
+	margin: auto 5px;
+}
+.gioHang > div > a:hover
+{
+	color: white;
+	border: 1px solid red;
+	background-color: red;
+}
+.gioHang .gioHangTen
+{
+	text-align: left;
+	margin-left: 40px;
+}
+.gioHang .gioHangTen > p
+{
+	margin: 5px auto;
+}
+.tongTien
+{
+	font-size: 20px;
+	width: 1200px;
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+	text-decoration: underline;
+}
+
+.dangNhap
+{
+	width: 1200px;
+	height: 240px;
+}
+.editSanPham
+{
+	width: 1200px;
+	height: 300px;
+}
+.dangNhap > p
+{
+	text-align: center;
+}
+.dangNhap > form
+{
+	width: 380px;
+	margin: 40px auto;
+}
+.dangNhap > form > table .sb
+{
+	text-align: center;
+}
+.dangNhap > form > table .sb input
+{
+	padding: 5px 8px;
+	margin: 5px 5px 5px 15px;
+}
+.dangNhap > form > table .sb input:hover
+{
+	color: black;
+	background-color: rgb(50, 200, 50);	
+}
